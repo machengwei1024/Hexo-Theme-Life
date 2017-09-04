@@ -1,0 +1,98 @@
+
+# html lang
+language: zh
+
+# 博客导航
+menu:
+  首页: /
+  关于: /about/
+  链接: /links/
+
+# 网站右边栏头像(图片路径或链接)
+logo: http://dl.weic96.cn/logo.png
+
+# 社交按钮(博客右侧，其中Facebook和Twitter不填则不显示)
+github:
+weibo:
+twitter:
+facebook:
+email:
+rss:
+
+# favicon路径(图片路径或链接)
+favicon: 
+
+# 博客侧边栏配色(light/default)
+sidebar: default
+
+# 首页的文章预览裁剪字数(如果文章有摘要则会优先显示摘要，如果没有的话会裁剪正文来显示)
+index_post:
+  enable: true
+  length: 130
+
+#LeanCloud配置
+leancloud:
+  app_id: 
+  app_key: 
+
+#LeanStatistics文章阅读统计功能，采用上方LeanCloud配置（可选值：true/false）
+LeanStatistics_enable: false
+
+# 是否开启评论模块（可选值：true/false）
+comment: true
+
+# Disqus配置，填是否开启和，你的Disqus站点名
+disqus:
+  enable: false
+  name: 
+
+# Valine配置，填写是否开启，配置采用上面Leancloud配置（可选值：true/false）
+valine_enable: false
+
+# 文章页是否显示摘要内容(可选值true/false，如果填true文章页则会显示摘要和正文，否则只显示正文)（可选值：true/false）
+post_excerpt: false
+
+# 文章页打赏方式图片(图片路径或链接)
+alipay: http://dl.weic96.cn/logo.png
+wechat: http://dl.weic96.cn/logo.png
+qq: http://dl.weic96.cn/logo.png
+
+
+# 主题版本
+version: 1.0
+
+##### 非授权用户请勿修改以下部分及本主题所有页面组织代码 #####
+##### 如需购买授权请访问 https://weic.me/themes-hexo-life #####
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/bootstrap.min.css
+- /css/font-awesome.min.css
+- /css/atom-one-dark.css
+- /css/jquery.fancybox.min.css
+- /css/nprogress.min.css
+- /css/valine.css
+- /css/life.css
+
+# sidebar color
+siderbar_style: /css/sidebar-light.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/jquery-2.2.4.min.js
+- https://cdn1.lncld.net/static/js/3.1.0/av-min.js
+- /js/jquery.pjax.js
+- /js/nprogress.min.js
+- /js/tether.min.js
+- /js/bootstrap.min.js
+- /js/highlight.min.js
+- /js/highlightjs-line-numbers.min.js
+- /js/jquery.fancybox.js
+- /js/jquery.qrcode.min.js
+- /js/Valine.min.js
+
+LeanStatistics_script:
+- /js/LeanStatistics.min.js
+
+# Life Script
+life_script: /js/Life.js

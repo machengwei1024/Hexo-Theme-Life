@@ -1,0 +1,81 @@
+/*博客侧栏布局*/
+.blog-sidebar{
+    background: #fff;
+}
+/*侧栏站点标题*/
+.blog-sidebar-title{
+    background: #fff;;
+}
+.blog-sidebar-title>a{
+    color: #58666e;
+}
+.blog-sidebar-title-shadow{
+    -webkit-box-shadow: 0 .5em .4em rgba(0,0,0,0.06);
+    -moz-box-shadow: 0 .5em .4em rgba(0,0,0,0.06);
+    box-shadow: 0 .5em .4em rgba(0,0,0,0.06);
+}
+.blog-sidebar-logo>img{
+    border: 2px solid #eee;
+}
+/*博客侧栏H4标签*/
+.blog-sidebar-h4{
+    color: #8d9498;
+}
+/*侧栏社交按钮*/
+.blog-sidebar-icon>ul>li>a>i{
+    color: #58666e;
+}
+.icon-github{
+    background: #efefef;
+}
+.icon-weibo{
+    background-color: #efefef;
+}
+.icon-email{
+    background: #efefef;
+}
+.icon-rss{
+    background: #efefef;
+}
+.icon-twitter{
+    background: #efefef;
+}
+.icon-facebook{
+    background: #efefef;
+}
+/*侧栏统计信息*/
+.blog-sidebar-count-left:before{
+    background-color: #d8eef5;
+}
+.blog-sidebar-count-p{
+    color: #5bc0de;
+}
+.blog-sidebar-count-span{
+    color: #e0d3d3;
+}
+/*侧栏文章分类*/
+.list-group-item>a{
+    color: #7298a5;
+}
+.badge-default{
+    background: #d8eef5;
+}
+.list-group-item{
+    border: 1px solid #d8eef5;
+}
+/*侧栏标签云*/
+.tag-could{
+    border: 1px solid #d8eef5;
+    background: #fff;
+    color: #a7b8c1
+}
+/*返回顶部按钮*/
+.retop{
+    background: #fff;
+    -webkit-box-shadow: .1em 0 .5em .4em rgba(0,0,0,0.06);
+    -moz-box-shadow: .1em 0 .5em .4em rgba(0,0,0,0.06);
+    box-shadow: .1em 0 .5em .4em rgba(0,0,0,0.06);
+}
+.retop>i{
+    color: #a7b8c1;
+}
