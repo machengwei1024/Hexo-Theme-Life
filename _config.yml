@@ -69,7 +69,7 @@ stylesheets:
 - /css/bootstrap.min.css
 - /css/font-awesome.min.css
 - /css/atom-one-dark.css
-- /css/jquery.fancybox.min.css
+- /css/jquery.fancybox.css
 - /css/nprogress.min.css
 - /css/valine.css
 - /css/life.css
