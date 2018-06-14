@@ -86,8 +86,8 @@
                 {% block body %}{% endblock %}
                 {# 这里是分页 #}
             <footer class="blog-footer">
-                <p class="blog-footer-left">Copyright © 2017 <a href="{{ config.url }}">{{ config.title }}</a></p>
-                <p class="blog-footer-right">Powered by <a href="https://hexo.io" target="_blank">Hexo</a>,Themes <a href="https://weic.me/themes-life/" target="_blank">Life</a></p>
+                <p class="blog-footer-left">Copyright © {% set current = date(Date.now(), "YYYY") %} {{ current }} <a href="{{ config.url }}">{{ config.title }}</a></p>
+                <p class="blog-footer-right">Powered by <a href="https://hexo.io" target="_blank">Hexo</a>,Theme <a href="https://note.isweic.com/themes-life/" target="_blank">Life</a></p>
             </footer>
         </div><!--博客主栏结束-->
         <!--博客侧边栏开始-->
